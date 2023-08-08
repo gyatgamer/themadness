@@ -155,11 +155,6 @@ function library:CreateWindow(name)
 end
 return library
 
-local main = library:CreateWindow("Skidded Client")
-
-main:CreateButton("two", function()
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
-end)
 
 
 
